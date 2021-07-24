@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial scale=1">
+<head> <title> Login Page</title>
+<style>
+	body{
+		font-family: Calibri,Helveticasans-serif;
+		background-color: pink;
+		text-align: left;
+	       }
+	
+	button{
+		 background-color: #4CAF50;
+		width: 100%;
+		color: orange;
+		pedding: 15px;
+		margin: 10px 0px;
+		border: none;
+		cursor: pointer;
+	}
+	form{
+		border: 3px solid #f1f1f1;
+	      }
+	input[type=text], input=[password]{
+		width: 100%;
+ 		margin: 10px 0px;
+		padding: 12px 20px;
+		display: inline-block;
+		border: 2px solid green;
+		box sizing: border-box;
+	}
+	button: hover{
+		opacity: 1;
+	}
+	.cancelbtn{
+		width: auto;
+		padding: 10px 10px;
+		margin: 10px 5px;
+	}
+
+	.containre{
+		padding: 25px;
+		background-color: lightblue;
+	}
+
+</style>
+</head>
+<body>
+ 	<center><h1> <b>Student Login Page</b></h1></center>
+	<form>
+		<div class="container">
+		<lable >Username :</lable><br>
+		<input type="text" placeholder="Enter Username" name="username" required><br>
+		<lable>Password :</lable><br>
+		<input type="password" placeholder="Enter Password" name="password" required><br>
+		<button type="submit">Login</button><br>
+		<input type="checkbox" checked="checked">Remember me
+		<button type="button" class="cancelbtn">Cancel</button>
+		Forget<a href="#">password?</a>
+		</div>
+	</form>
+</body>
+</html>
